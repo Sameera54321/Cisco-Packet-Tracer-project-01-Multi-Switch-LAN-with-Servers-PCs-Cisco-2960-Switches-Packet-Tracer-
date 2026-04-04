@@ -21,8 +21,6 @@ Multi‑Switch LAN is a Cisco Packet Tracer simulation that models a small to me
 | Server2 | 192.168.1.20 | 255.255.255.0 | 192.168.1.1 |
 | PC0 - PC5 | 192.168.1.100-105 | 255.255.255.0 | 192.168.1.1 |
 
-(If no router is present, all devices must be in the same subnet. A router can be added later for inter‑VLAN or external connectivity.)
-
 ### Key configurations:
 
     Switch basics – hostnames, passwords, management IP (optional)
@@ -69,10 +67,3 @@ Contributions are welcome! To extend this lab:
     Add more PCs or servers.
 
     Open a pull request with a clear description.
-
-## 📜 License
-
-Distributed under the MIT License. See the LICENSE file for more information.
-Free to use, modify, and share for educational purposes.
-
-
