@@ -11,15 +11,16 @@ Multi‑Switch LAN is a Cisco Packet Tracer simulation that models a small to me
 
     6 client PCs – PC0 through PC5
 
-Typical IP addressing (example):
-Device	IP Address	Subnet Mask	Default Gateway
-Server1	192.168.1.10	255.255.255.0	192.168.1.1
-Server2	192.168.1.20	255.255.255.0	192.168.1.1
-PC0 – PC5	192.168.1.100–105	255.255.255.0	192.168.1.1
+### Typical IP addressing (example):
+
+Device	     IP Address	         Subnet Mask	Default Gateway
+Server1	    192.168.1.10	    255.255.255.0	  192.168.1.1
+Server2	    192.168.1.20	    255.255.255.0	  192.168.1.1
+PC0 – PC5	192.168.1.100–105   255.255.255.0	  192.168.1.1
 
 (If no router is present, all devices must be in the same subnet. A router can be added later for inter‑VLAN or external connectivity.)
 
-Key configurations:
+### Key configurations:
 
     Switch basics – hostnames, passwords, management IP (optional)
 
@@ -29,5 +30,46 @@ Key configurations:
 
     Server services – configure DHCP on Server1 to assign IPs to PCs
 
-Verification:
+### Verification:
 ping from any PC to any server should succeed if all are in the same subnet and switches are correctly connected.
+
+## ✨ Features
+
+    ✅ 3 Cisco 2960 switches – Layer 2 connectivity, STP, VLAN capable
+
+    ✅ 2 servers – can run DHCP, DNS, HTTP, FTP
+
+    ✅ 6 client PCs – test connectivity and server access
+
+    ✅ Full Packet Tracer file (.pkt) – ready to open and experiment
+
+    ✅ Documentation – IP plan, switch configs, server setup
+
+## 🛠️ Built With
+
+    Cisco Packet Tracer – version 8.x
+
+    CLI – switch and server configurations
+
+## 🤝 Contributing
+
+Contributions are welcome! To extend this lab:
+
+    Fork the repository.
+
+    Add a router to provide inter‑VLAN routing or internet access.
+
+    Implement VLANs and trunking between switches.
+
+    Configure STP enhancements (PortFast, BPDUguard).
+
+    Add more PCs or servers.
+
+    Open a pull request with a clear description.
+
+## 📜 License
+
+Distributed under the MIT License. See the LICENSE file for more information.
+Free to use, modify, and share for educational purposes.
+
+
