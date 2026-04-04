@@ -15,10 +15,13 @@ Multi‑Switch LAN is a Cisco Packet Tracer simulation that models a small to me
 
 ### Typical IP addressing (example):
 
-Device	     IP Address	         Subnet Mask	Default Gateway
-Server1	    192.168.1.10	    255.255.255.0	  192.168.1.1
-Server2	    192.168.1.20	    255.255.255.0	  192.168.1.1
-PC0 – PC5	192.168.1.100–105   255.255.255.0	  192.168.1.1
+| Device | IP Address | Subnet Mask | Default Gateway |
+| :--- | :--- | :--- | :--- |
+| Server1 | 192.168.1.10 | 255.255.255.0 | 192.168.1.1 |
+| Server2 | 192.168.1.20 | 255.255.255.0 | 192.168.1.1 |
+| PC0 - PC5 | 192.168.1.100-105 | 255.255.255.0 | 192.168.1.1 |
+| Router0 | 192.168.1.1 | 255.255.255.0 | N/A |
+| PC6 | 192.168.1.106 | 255.255.255.0 | 192.168.1.1 |
 
 (If no router is present, all devices must be in the same subnet. A router can be added later for inter‑VLAN or external connectivity.)
 
